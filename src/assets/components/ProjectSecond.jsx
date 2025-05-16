@@ -2,7 +2,7 @@
 const ProjectSecond = ({ image, des }) => {
   return (
     <div className="col-4">
-      <div className='mb-4'>
+      <div className='mb-4 project-card'>
         <div className='mb-5'>
           <img src={image} alt="" />
         </div>
@@ -10,7 +10,7 @@ const ProjectSecond = ({ image, des }) => {
           <div>
             <h3>{des}</h3>
           </div>
-          <div className="card-btn ">
+          <div className="card-btn2">
             <button className=""><i class="bi bi-arrow-up-right"></i></button>
           </div>
         </div>
