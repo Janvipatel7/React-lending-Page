@@ -1,10 +1,10 @@
 const ServiceCard = ({ image, title, desc }) => {
   return (
-    <div className="col-3">
+    <div className="col-lg-3 col-md-6 col-12">
       <div className="service-card">
         <div className="card-image mb-4">
-          <img src={image} alt="" className="position-relative z-3" />
-          <img className="service-img-bg" src="/public/image/service__1__img__bg.e85e2ba3.svg" alt="" />
+          <img src={image} alt="" className="position-relative z-3" width={'100%'} />
+          <img className="service-img-bg" src="/public/image/service__1__img__bg.e85e2ba3.svg"  alt="" />
           
         </div>
         <div className="">

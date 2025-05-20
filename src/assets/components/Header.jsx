@@ -8,7 +8,7 @@ const Header = () =>{
                     </div>
                     <div>
                         <nav>
-                            <ul className="d-flex gap-4 m-0 p-0 text-white">
+                            <ul className="d-lg-flex d-none gap-4 m-0 p-0 text-white">
                                 <li>Home</li>
                                 <li>Service</li>
                                 <li>About</li>

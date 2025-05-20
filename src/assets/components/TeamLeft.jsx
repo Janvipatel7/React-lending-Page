@@ -1,6 +1,6 @@
 const TeamLeft = () => {
     return (
-        <div className="col-4">
+        <div className="col-xl-4 col-12">
             <div className='team-left'>
                 <div className="d-flex align-items-center">
                     <div className="text-white">

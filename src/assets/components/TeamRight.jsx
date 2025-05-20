@@ -25,7 +25,7 @@ let teamArr = [
 
 const TeamRight = () => {
   return (
-    <div className="col-8">
+    <div className="col-xl-8 col-12">
         <div className="row align-items-center h-100 team-profile position-relative ">
             {teamArr.map((item)=>{
                 return <TeamProfile image= {item.image} title={item.title} desig={item.designation}/>

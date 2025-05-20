@@ -2,7 +2,7 @@
 
 const TeamProfile = ({image,title,desig}) => {
   return (
-    <div className='col-3 '>
+    <div className='col-md-3 col-sm-6 col-12'>
         <div className="profile-hover">
             <div className="mb-4 profile">
                 <img src={image} alt="" width="100%" />

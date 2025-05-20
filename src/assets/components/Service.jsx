@@ -32,7 +32,7 @@ const Service = () => {
         <div className="row">
           <FirstService title={title} desc={desc} />
         </div>
-        <div className="row position-relative">
+        <div className="row gy-4 position-relative">
           {cardArr.map((item) => {
             return <ServiceCard image={item.image} title={item.title} desc={item.desc} />
           })}

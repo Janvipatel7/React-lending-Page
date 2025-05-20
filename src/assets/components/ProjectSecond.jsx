@@ -4,7 +4,7 @@ const ProjectSecond = ({ image, des }) => {
     <div className="col-4">
       <div className='mb-4 project-card'>
         <div className='mb-5'>
-          <img src={image} alt="" />
+          <img src={image} alt="" width={'100%'} />
         </div>
         <div className="project-content d-flex">
           <div>

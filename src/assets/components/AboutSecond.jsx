@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutSecond = () => {
   return (
-    <div className="col-6">
+    <div className="col-lg-6 col-12">
         <div className='pd-left'>
             <div className='about-content'>
                 <div>

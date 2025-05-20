@@ -40,7 +40,7 @@ const Project = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="d-flex gap-4">
+                        <div className="row ">
                             {projectArr.map((item) => {
                                 return <ProjectSecond image={item.image} des={item.des} />
                             })}
