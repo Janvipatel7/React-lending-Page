@@ -57,7 +57,7 @@ const Contact = () => {
                             </div>
                             <div className="colxl-12">
                                 <div>
-                                    <button class="contact-button" type='submit'>SEND MESSAGE</button>
+                                    <button className='all-btn'>SEND MESSAGE</button>
                                 </div>
                             </div>
 

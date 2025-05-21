@@ -9,6 +9,8 @@ import Project from './assets/components/Project'
 import Contact from './assets/components/Contact'
 import Brand from './assets/components/Brand'
 import Blog from './assets/components/Blog'
+import Footer from './assets/components/Footer'
+
 
 
 
@@ -26,6 +28,7 @@ const App = () => {
       <Contact />
       <Brand />
       <Blog />
+      <Footer />
     </div>
   )
 }
