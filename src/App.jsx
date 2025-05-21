@@ -7,6 +7,8 @@ import About from './assets/components/About'
 import Team from './assets/components/Team'
 import Project from './assets/components/Project'
 import Contact from './assets/components/Contact'
+import Brand from './assets/components/Brand'
+import Blog from './assets/components/Blog'
 
 
 
@@ -22,6 +24,8 @@ const App = () => {
       <Project />
       <Testimonial/>
       <Contact />
+      <Brand />
+      <Blog />
     </div>
   )
 }
