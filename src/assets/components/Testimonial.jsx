@@ -9,7 +9,7 @@ const Testimonial = () => {
         <section className='py-5'>
             <div className="container">
                 <FirstService title={title} desc={desc}/>
-                <div className='row'>
+                <div className='row gy-4'>
                     <TestimonialSecond />
                  
                 </div>

@@ -17,7 +17,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                <div className="col-lg-7 col-12 ">
                     <div className='contact-input-wrapper'>
                         <div className="row">
                             <div className="col-xl-6">
@@ -65,7 +65,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='pl-70 col-xl-5 col-lg-5 col-md-12 col-sm-12'>
+                <div className='pl-70 col-lg-5 col-12 col-12'>
                     <div className="contact-info">
                         <div className='contact-single-item'>
                             <div className='contact-icon'>

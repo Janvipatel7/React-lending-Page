@@ -32,7 +32,7 @@ const Blog = () => {
                     </div>
                 </div>
                 <div className="col-6">
-                    <div>
+                    <div className='text-end'>
                         <button className='blog-btn'>ALL ARTICLES</button>
                     </div>
                 </div>

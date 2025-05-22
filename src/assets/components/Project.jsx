@@ -40,7 +40,7 @@ const Project = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row ">
+                        <div className="row gy-4">
                             {projectArr.map((item) => {
                                 return <ProjectSecond image={item.image} des={item.des} />
                             })}

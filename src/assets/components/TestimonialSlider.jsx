@@ -2,7 +2,7 @@
 
 const TestimonialSlider = () => {
     return (
-        <div className="col-9">
+        <div className="col-lg-9 col-12">
             <div className="testimonial-inner">
                 <p className="slider-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, iure voluptas saepe, ratione fugiat blanditiis minus voluptates explicabo, consequuntur atque nobis adipisci! Dignissimos sit, accusantium repellat dolorum nam nobis rerum."</p>
                 <div className="d-flex align-items-center justify-content-between">
