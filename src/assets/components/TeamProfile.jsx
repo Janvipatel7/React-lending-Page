@@ -8,7 +8,7 @@ const TeamProfile = ({image,title,desig}) => {
                 <img src={image} alt="" width="100%" />
             </div>
             <div className="text-white">
-                <h6 className="fs-4 fw-bold  text-decoration-underline">{title}</h6>
+                <h6 className="fs-4 fw-bold team-name text-decoration-underline">{title}</h6>
                 <span className="team-desig">{desig}</span>
             </div>
         </div>

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer>
             <div className='bg-footer'>
-                <div class="d-flex text-center">
+                <div class="d-flex justify-content-center text-center">
                     <div class="position-relative brand-badge">
                         <img src="../../../public/image/brand__badge.png" className="rotate" alt="" />
                         <img src="../../../public/image/brand__badge__inner.webp" className="message-icon" alt="" />
@@ -125,10 +125,10 @@ const Footer = () => {
                                 <div class="copyright-right">
                                     <ul className="d-flex">
                                         <li>
-                                            <a href="#">Privacy &amp; Policy ||</a>
+                                            <a href="#">Privacy & Policy || </a>
                                         </li>
                                         <li>
-                                            <a href="#">Terms &amp; Conditions</a>
+                                            <a href="#"> Terms & Conditions</a>
                                         </li>
                                     </ul>
                                 </div>
