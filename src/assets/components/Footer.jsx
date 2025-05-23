@@ -3,7 +3,7 @@
 const Footer = () => {
     return (
         <footer>
-            <div className='bg-footer'>
+            <div className="bg-footer">
                 <div class="d-flex justify-content-center text-center">
                     <div class="position-relative brand-badge">
                         <img src="../../../public/image/brand__badge.png" className="rotate" alt="" />
@@ -14,11 +14,11 @@ const Footer = () => {
                     <div className="pb-60">
                         <div className="row">
                             <div class="col-xl-4 col-lg-6 col-md-6">
-                                <div class="position-relative ">
+                                <div class="position-relative">
                                     <div class="footer-logo">
                                         <img src="/public/image/Logo_1.webp" alt="" />
                                     </div>
-                                    <div className="footer-text">
+                                    <div class="footer-text">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua</p>
                                     </div>
                                     <div className="footer-icons pt-3">
@@ -73,7 +73,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6">
                                 <div className="pl-70">
                                     <div className="footer-menu-title mb-4">
                                         <h6>QUICK LINKS :</h6>
@@ -99,7 +99,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
                                 <div className="pl-70">
                                     <div className="footer-menu-title mb-4">
                                         <h6>QUICK LINKS :</h6>
@@ -134,11 +134,11 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </footer>
+
     )
 }
 
